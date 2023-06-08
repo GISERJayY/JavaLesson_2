@@ -82,7 +82,7 @@ if(布尔表达式){
 
 - 我们发现刚才的代码不符合实际情况，真实的情况还可能存在ABCD，存在区间多级判断，比如90-100就是A，80-90就是B...等等，在生活中我们很多时候选择也不仅仅只有两，所以我们要一个多选择结构来处理类似的问题。
 
-![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/多选结构.png)
+![](https://github.com/GISERJayY/JavaLesson_2/blob/main/%E5%9B%BE%E7%89%87/%E5%A4%9A%E9%80%89%E7%BB%93%E6%9E%84.png?raw=true)
 - 语法
 
 ```java
