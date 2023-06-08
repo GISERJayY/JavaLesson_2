@@ -66,7 +66,7 @@ if(布尔表达式){
 
 - 那现在有个需求，公司要收购一个软件，成功了，给人支付100万元，失败了，自己找人开放，这样的需求用一个if就搞不定了，我们需要一个双选结构，所以就有if-else结构。
 
-![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/双选结构.png)
+![](https://github.com/GISERJayY/JavaLesson_2/blob/main/%E5%9B%BE%E7%89%87/%E5%8F%8C%E9%80%89%E7%BB%93%E6%9E%84.png?raw=true)
 
 - 语法
 
