@@ -22,7 +22,7 @@ Scanner s = new Scanner(System.in);
 ```
 
 - 通过Scanner类的next()与nextLine()方法获取输入的字符串，在读取前我们一般需要使用hasNext()与hasNextLine()判断是否还有输入的数据。 
-- Net():
+- next():
   - 1、一定要读取到有效字符后才可以结束输入。
   - 2、对输入有效字符之前遇到的空白，next()方法会自动将其去掉。
   - 3、只有输入有效字符后才将其后面输入的空白作为分隔符号或者结束符。
