@@ -37,7 +37,7 @@ Scanner s = new Scanner(System.in);
 - JAVA的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。
 - 顺序结构是最简单的算法结构。
 
-![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/顺序结构.png)
+![顺序结构](https://github.com/GISERJayY/JavaLesson_2/blob/main/%E5%9B%BE%E7%89%87/%E9%A1%BA%E5%BA%8F%E7%BB%93%E6%9E%84.png?raw=true)
 
 - 语句与语句之间，框与框之间是按从上到下的顺序进行的，它是由若干个依次执行处理步骤组成的，**他是任何一个算法都离不开的一种基本算法结构**。
 
