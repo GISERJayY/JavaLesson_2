@@ -37,20 +37,7 @@ Scanner s = new Scanner(System.in);
 - JAVA的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。
 - 顺序结构是最简单的算法结构。
 
-```flow
-a=>start: --开始--
-c=>operation: --A--
-b=>operation: --B--
-e=>end: --结束--
-a->c->b->e
- 
-
- 
-
-
-
-
-```
+![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/顺序结构.png)
 
 - 语句与语句之间，框与框之间是按从上到下的顺序进行的，它是由若干个依次执行处理步骤组成的，**他是任何一个算法都离不开的一种基本算法结构**。
 
@@ -66,20 +53,7 @@ a->c->b->e
 
 - 我们很多时候要去判断一个东西是否可行，然后我们才去执行，这样一个过程在程序中用if语句来表示 
 
-```flow
-st=>start: 开始
-con=>condition: 布尔表达式
-op=>operation: 语句
-op2=>operation: 语句
-op3=>operation: 语句
-su=>subroutine: 子流程
-ed=>end: 结束
-st->op->con
-con(yes)->op2
-op2->op3
-con(no) ->op3 
-```
-
+![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/单选结构.png)
 - 语法：
 
 ```java
@@ -92,21 +66,7 @@ if(布尔表达式){
 
 - 那现在有个需求，公司要收购一个软件，成功了，给人支付100万元，失败了，自己找人开放，这样的需求用一个if就搞不定了，我们需要一个双选结构，所以就有if-else结构。
 
-```flow
-st=>start: 开始
-op1=>operation: 语句
-op2=>operation: 语句2
-op3=>operation: 语句3
-op4=>operation: 语句4
-condi=>condition: 布尔表达式
-ed=>end: 结束框
-st->op1->condi
-condi(yes)->op2
-condi(no)->op3
-op2->op4
-op3->op4
-op4->ed
-```
+![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/双选结构.png)
 
 - 语法
 
@@ -122,30 +82,7 @@ if(布尔表达式){
 
 - 我们发现刚才的代码不符合实际情况，真实的情况还可能存在ABCD，存在区间多级判断，比如90-100就是A，80-90就是B...等等，在生活中我们很多时候选择也不仅仅只有两，所以我们要一个多选择结构来处理类似的问题。
 
-```flow
-st=>start: 开始
-op1=>operation: 语句
-op2=>operation: 语句1
-op3=>operation: 语句2
-op4=>operation: 语句3
-op5=>operation: 语句4
-op6=>operation: 语句5
-condi1=>condition: 布尔表达式1
-condi2=>condition: 布尔表达式2
-condi3=>condition: 布尔表达式3
-ed=>end: 结束框
-st->op1
-op1(right)->condi1(no)->condi2(no)->condi3(no)->op5
-condi1(yes)->op2
-condi2(yes)->op3
-condi3(yes)->op4
-op2->op6
-op3->op6
-op4->op6
-op5->op6
-op6->ed
-```
-
+![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/多选结构.png)
 - 语法
 
 ```java
