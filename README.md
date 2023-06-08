@@ -53,7 +53,7 @@ Scanner s = new Scanner(System.in);
 
 - 我们很多时候要去判断一个东西是否可行，然后我们才去执行，这样一个过程在程序中用if语句来表示 
 
-![](/Users/a88/Desktop/JAVA/JavaLesson_2/图片/单选结构.png)
+![](https://github.com/GISERJayY/JavaLesson_2/blob/main/%E5%9B%BE%E7%89%87/%E5%8D%95%E9%80%89%E7%BB%93%E6%9E%84.png?raw=true)
 - 语法：
 
 ```java
